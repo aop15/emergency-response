@@ -1,0 +1,85 @@
+# ============================================================
+# Laravel
+# ============================================================
+
+/backend/.env
+/backend/.env.*
+!/backend/.env.example
+/backend/storage/*.key
+/backend/storage/app/*
+!/backend/storage/app/.gitignore
+/backend/storage/framework/cache/*
+/backend/storage/framework/sessions/*
+/backend/storage/framework/testing/*
+/backend/storage/framework/views/*
+/backend/storage/logs/*
+/backend/bootstrap/cache/*
+
+# Laravel generated files
+/backend/vendor/
+/backend/public/storage
+
+# ============================================================
+# Node / React
+# ============================================================
+
+/frontend/node_modules/
+/frontend/.npm
+/frontend/.yarn-integrity
+/frontend/.pnpm-debug.log*
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/.env
+/frontend/.env.*
+!/frontend/.env.example
+
+# Build output
+/frontend/dist/
+/frontend/build/
+/frontend/.vite/
+
+# ============================================================
+# IDE / Editors
+# ============================================================
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+.idea/
+*.swp
+*.swo
+
+# ============================================================
+# Operating System
+# ============================================================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ============================================================
+# Logs / temporary files
+# ============================================================
+
+*.log
+*.tmp
+*.temp
+
+# ============================================================
+# Environment / secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+# ============================================================
+# Coverage
+# ============================================================
+
+coverage/
+.nyc_output/
